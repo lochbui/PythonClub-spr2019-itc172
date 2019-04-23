@@ -1,5 +1,8 @@
 from django.urls import path
+from . import views
 
-uslpatterns=[
-    
+#comment
+
+urlpatterns=[
+    path('', views.index, name='index'),
 ]
